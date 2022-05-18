@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+     
+     
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+     
+     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+     
+     <link rel="stylesheet" href="css/magnific-popup.css">
+     
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/style-main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <style>
+    /* Profile Section */
+
+
+/*-------------------------------------------------------*/
+#profile {
+	background:#ed8f80;
+	background-image: url(images/header-shadow.png);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+/* About */
+.about {
+	float: left;
+	margin-top: 30px;
+	width: 490px;
+	margin-left: 20px;
+}
+
+.about .photo-inner {
+    float: left;
+    background: url(images/photo-inner.png) no-repeat;
+    width: 214px;
+    height: 212px;
+    padding: 12px 0 0 19px;
+}
+
+.about .photo-inner img {
+	background-color: #FFF;
+}
+
+.about h1 {
+	font-weight: 900;
+	color: #FFF;
+	line-height: 32px;
+	margin-top: 8px;
+}
+
+.about h3 {
+	margin-top: 5px;
+	font-size: 16px;
+	color: #FFF;
+	line-height: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+      h3.main-heading .now{
+            background: #cf455c !important;
+        }
+
+.about p {
+	font-size: 12px;
+	margin-top: 10px;
+	color:#fff;
+	font-weight: 400;
+	line-height: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Personal info */
+.personal-info {
+    float: left;
+    margin-top: 30px;
+    width: 310px;
+    min-height: 230px;
+    margin-left: 10px;
+    background: url(images/personal-info-sep.png) no-repeat left top;
+    padding: 20px 0 19px 20px;
+}
+span.word-wrap a {
+    color: #fff;
+}
+.personal-info li {
+    line-height: 12px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    float: left;
+    width: 293px;
+}
+
+.personal-info li label {
+	color:#fff;
+	float: left;
+	padding: 4px 7px;
+	font-weight: 550;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.personal-info li span {
+	float: right;
+	width: 220px;
+	padding-top: 4px;
+	font-weight: 400;
+	color:#fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+        
+        
+        /* Resume Section */
+
+/*-------------------------------------------------------*/
+#resume {
+    padding: 0px 0px;
+    overflow: hidden;
+}
+
+.skills-section, .timeline-section {
+	float: left;
+}
+
+/* Timeline Section */
+.timeline-section {
+    width: 100%;
+}
+
+.timeline {
+	margin-bottom: 30px;
+}
+
+.timeline li {
+	margin-bottom: 20px;
+}
+
+.timeline li .timelineUnit {
+	line-height: 17px;
+	margin-left: 0px;
+	color: #444;
+	font-size: 13px;
+	border-left: 1px solid #cf455c;
+	padding-left: 15px;
+}
+
+.timeline li .timelineUnit .timelineDate {
+	line-height: 17px;
+	color:#cf455c;
+	font-size: 14px;
+	margin-left: 10px;
+	font-weight: normal;
+	padding: 2px 6px;
+	float: right;
+}
+
+.timeline li .timelineUnit h4 {
+	line-height: 24px;
+	font-size: 15px;
+	color: #444;
+     
+}
+
+.timeline li .timelineUnit h5 {
+	line-height: 18px;
+	font-size: 13px;
+	color: #999;
+}
+
+.timeline li .timelineUnit p {
+	color: #666;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+/* Skills Section */
+.skills-section {
+	width: 270px;
+}
+
+.skills {
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+.skills li {
+	margin-bottom: 15px;
+	float: left;
+	padding-left: 0px;
+}
+
+.skills li h4 {
+	width: 140px;
+	float: left;
+	font-size: 15px;
+	color: #444;
+}
+
+.skills li .rating {
+	width: 123px;
+	height: 14px;
+	float: left;
+}
+
+.skills li .rating > span {
+	opacity: 0.3;
+	height: 12px;
+	width: 12px;
+	background-color: #cf455c;
+	display: block;
+	float: left;
+	margin-right: 1px;
+	border: 2px solid #eeeeee;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+/* Download Button */
+#resume .button {
+	width: 250px;
+	padding: 10px;
+	background-color: #cf455c;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	margin: 20px 0px 0px -20px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	-webkit-border-radius: 0px 4px 4px 0px;
+	-moz-border-radius: 0px 4px 4px 0px;
+	border-radius: 0px 4px 4px 0px;
+}
+
+#resume .button:hover {
+	background-color:#cf455c;
+}
+
+        
+        
+        
+     /* Portfolio Section */
+
+/*-------------------------------------------------------*/
+.row > .column {
+  padding: 0 8px;
+}
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    width: 572px;
+    max-width: 100%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+.close {
+    opacity: .7;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff!important;
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Modal Content */
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#portfolio {
+	padding: 20px 20px 20px 20px;
+}
+
+/* Images list */
+#portfolio-list {
+	width: 860px;
+	overflow: hidden;
+}
+
+#portfolio-list li {
+	float: left;
+	margin-right: 25px;
+	text-align: center;
+	background-color: #fbfbfb;
+	border-bottom: 1px solid #e5e5e5;
+	height: 185px;
+	margin-bottom: 30px;
+	width: 180px;
+}
+        
+        
+#portfolio-list li:hover {
+	border-bottom: 1px solid #cf455c;
+	height: 185px;
+}
+
+#portfolio-list img {
+	background-color: #FFF;
+	height: 120px;
+	width: 180px;
+}
+
+#portfolio-list li:hover .title {
+	color:#cf455c;
+}
+
+#portfolio-list li .title {
+	font-size: 14px;
+	margin-top: 15px;
+	font-weight: 400;
+	color: #3A3A3A;
+}
+
+#portfolio-list li .categorie {
+	font-size: 11px;
+	line-height: 20px;
+	color: #999;
+}
+
+/* Filter menu */
+.cats-filter {
+	border-bottom: 1px solid #ededed;
+	overflow: hidden;
+	padding: 15px 0;
+}
+
+.cats-filter li a {
+	float: left;
+	margin-right: 7px;
+	color: #fff;
+	background-color: #666;
+	padding: 10px 10px;
+	margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+     
+    border-radius: 50px;
+}
+
+.cats-filter li a:hover {
+	background-color:#cf455c;
+    text-decoration: none;
+}
+
+.cats-filter li a.current {
+	background-color:#cf455c;
+}
+
+/*-------------------------------------------------------*/   
+        
+        
+        
+        
+       /* Contact Section */
+
+/*-------------------------------------------------------*/
+#contact {	 
+	overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact-info, .contact-form {
+	float: left;
+	padding: 0 20px;
+}
+
+.contact-info {
+	width: 250px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact-form {
+	width: 530px;
+}
+
+/* Contact info */
+.contact-info ul {
+	float: left;
+	border-left: 1px solid #cf455c;
+	padding-left: 18px;
+    
+}
+
+.contact-info ul li {
+	font-size: 13px;
+	line-height: 20px;
+	color: #666;
+	overflow: hidden;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Google map */
+#map {
+    height: 300px;
+    margin-bottom: 25px;
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+	width:100%;
+}
+#map iframe {
+    width: 100%;
+}
+/*-------------------------------------------------------*/
+
+/* Forms */
+
+/*-------------------------------------------------------*/
+form .input, form textarea {
+    -moz-box-shadow: inset 0 5px 16px -13px #333;
+    /* -webkit-box-shadow: inset 0 5px 16px -13px #333; */
+    /* box-shadow: inset 0 5px 16px -13px #333; */
+    background-color: #FDFDFD;
+    border: 1px solid #ced4da;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #666;
+    font-size: 12px;
+    height: 30px;
+    outline: none;
+    padding: 6px 10px;
+    resize: none;
+    width: 96%;
+}
+
+form textarea {
+	height: 112px;
+	line-height: 18px;
+	margin-bottom: 0;
+	padding-top: 8px;
+}
+
+form p {
+	margin-bottom: 15px;
+}
+
+form p label {
+	display: block;
+	color: #999;
+	margin-bottom: 8px;
+	font-size: 13px;
+}
+
+.button {
+	color: #fff;
+	background-color: #cf455c;
+	padding: 8px;
+	border: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	cursor: pointer;
+	font-size: 13px;
+}
+
+.button:hover {
+	background-color:#cf455c;
+}
+
+
+/*-------------------------------------------------------*/
+ 
+        
+        
+        
+        
+        
+        
+        
+        
+        footer{
+         font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+/*-------------------------------------------------------*/
+    </style>
+</head>
+<link rel="icon" href="icon_path" href="/images/logo.png" type="image/icon type">
+
+
+<body>
+ <br><br>
+  <section id="container">
+
+   <header> 
+<link rel="icon" href="icon_path" href="/images/logo.png" type="image/icon type">
+
+    	<div id="logo">
+        	<h2>NOOR NAILA IMTINAN HIMAM</h2>
+            <h4>STUDENT & RESEARCHER</h4>
+            
+            
+        </div>
+        <div class="social-icons-container">
+            <span class="socials-text"><button class="pulse-button"><i class="fa fa-share" aria-hidden="true"></i></button></span>
+			<ul class="socialicons">
+				<li>
+				<a href="https://www.instagram.com/noor_nailaih/" class="fa fa-instagram"
+				></a>
+				</li>
+				<li>
+				<a href="https://www.linkedin.com/in/noornaila" class="fa fa-linkedin" ></a>
+				</li>
+			</ul>
+			</div>
+    </header>
+    <section id="content">
+    <div id="profile"> 
+        	<div class="about">
+            	<div class="photo-inner">
+                    <ul>
+                        <li><img src="images/photo1.jpeg" height="186" width="153" /></li>
+                    </ul>
+                </div>
+                <h1>NOOR NAILA IMTINAN H.</h1>
+                <h3>STUDENT AT UBC VANCOUVER & RESEARCHER</h3>
+                <p> Computer science undergraduate student at the University of British Columbia with extensive experience in youth organizations with proven successes in managing multiple academic projects and volunteering events. Committed to research and passionate about computer science and music.</p>
+            </div>
+        	<ul class="personal-info">
+                <li><label>Name</label><span>Noor Naila Imtinan H. </span></li>
+                <li><label>Address</label><span>Vancouver, BC, Canada</span></li>
+                <li><label>Email</label><span class="word-wrap">nailao4@student.ubc.ca</span></li>
+                <li><label>Phone</label><span>+1 236-869-7717</span></li>
+                <li><label>Website</label><span class="word-wrap"><a href="#">www.noornaila.com</a></span></li>
+            </ul>
+        </div><!-- /Profile -->   
+         <nav class="menu">
+        	<ul class="tabs">
+                <li class="tmenu"><a href="#profile" class="tab-profile"><i><i class="fa fa-id-card" aria-hidden="true"></i></i>Profile</a></li>
+                <li class="tmenu"><a href="#resume"><i><i class="fa fa-trophy" aria-hidden="true"></i></i>Resume</a></li>
+                <li class="tmenu"><a href="#portfolio"><i><i class="fa fa-edit" aria-hidden="true" ></i></i>Portfolio</a></li>
+                <li class="tmenu"><a href="#contact"><i><i class="fa fa-envelope-square" aria-hidden="true"></i></i>Contact</a></li>
+            </ul>
+
+                </nav>
+        <section id="resume">
+        	 <div class="timeline-section">
+                   <div class="main-wrapper-resume">
+                   
+      <!-- carttitle-wrapper start -->
+      
+      <div class="carttitle-wrapper">
+         <div class="color-box">
+		    <button id="red-color" class="btn-style"></button>
+            <button id="yellow-color" class="btn-style"></button>
+            <button id="blue-color" class="btn-style"></button>
+            <button id="green-color" class="btn-style"></button>
+			<button class="setting-icon "><i class="fa fa-cog fa-spin" aria-hidden="true"></i></button>
+         </div>
+         <div class="container no-padding">
+            <div class="row no-margin">
+               <div class="col-md-6 no-padding bg-color-left">
+                  <div class="left-name bg-color-1">
+                     <h2>Noor<span class="text-color">Naila</span></h2>
+                     <h5>student & researcher</h5>
+                     <p>A responsible and resourceful undergraduate student with strong analytical skills and integrity. Coming with extensive experience in youth organizations with proven successes in managing multiple academic projects and volunteering events. Committed to research and passionate about computer science and music.</p>
+                  </div>
+                  <div class="left-address">
+                     <ul>
+                        <li><span class="text-color">Phone no</span>+1 236-869-7717</li>
+                        <li><span class="text-color">address</span>Vancouver, British Columbia, Canada</li>
+                        <li><span class="text-color">EMAIL </span>
+                        naila04@student.ubc.ca</li>
+                     </ul>
+                  </div>
+                  <div class="ex-heading loader">
+                     <h2>EXPIRIENCE</h2>
+                  </div>
+                  <div class="ex-box">
+                     <h2>2021-Present</h2>
+                     <h4>English Tutor</h4>
+                     <p>Tutoring for TOEFL iBT test and General English Speaking</p>
+                  </div>
+                  <div class="ex-box">
+                     <h2>2020-Present</h2>
+                     <h4>Project and Innovation Staff</h4>
+                     <p> Lead "Bincang Riset" research webinar program at Indonesian Young Researcher Association </p>
+                  </div>
+                  <div class="ex-box">
+                     <h2>2019-2020</h2>
+                     <h4>Secretary</h4>
+                     <p>Managed administration of Robotic 28 CLub</p>
+                  </div>
+                  <div class="ex-box">
+                    <h2>2018-2019</h2>
+                     <h4>Documentation Team Leader</h4>
+                     <p>Led Documentation team at ASEAN Robotic Day 2020</p>
+                  </div>
+               </div>
+               <div class="col-md-6 no-padding bg-color-right">
+                  <div class="left-name bg-color-2">
+                      <h5>
+                         <a href="https://drive.google.com/file/d/13qTl4ppBXQDPCTNZRMQMIc_EQQeSJ7Cm/view?usp=sharing">Click to request PDF
+                        </a>
+                      </h5>
+                  </div>
+                  <div class="right-skills">
+                     <div class="row no-margin">
+                        <div class="col-md-12 heading-skills no-padding">
+                           <h3>Awards</h3>
+                           <h4> *3rd Special Award from APA on 2021 Regeneron ISEF</h4>
+                           <h4> *4th Grand Award of Behavioral and Social Science Category on 2021 Regeneron ISEF </h4>
+                           <h4> *Gold Medalist of Indonesia Research Competition</h4>
+                           <h4> *Awardee of Talent Merit Scholarship</h4>
+                        </div>
+                     </div>
+                     <div class="row no-margin mt-25">
+                        <div class="col-md-12 heading-skills no-padding">
+                           <h3>Skills</h3>
+                    <div class="row no-margin">
+                        <div class="col-md-5 no-padding">
+                           <h4>Programming</h4>
+                        </div>
+                        <div class="col-md-7 no-padding">
+                           <div class="progress">
+                              <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row no-margin">
+                        <div class="col-md-5 no-padding">
+                           <h4>Research</h4>
+                        </div>
+                        <div class="col-md-7 no-padding">
+                           <div class="progress">
+                              <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row no-margin">
+                        <div class="col-md-5 no-padding">
+                           <h4>Project Management</h4>
+                        </div>
+                        <div class="col-md-7 no-padding">
+                           <div class="progress">
+                              <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row no-margin">
+                        <div class="col-md-5 no-padding">
+                           <h4>Administration</h4>
+                        </div>
+                        <div class="col-md-7 no-padding">
+                           <div class="progress">
+                              <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row no-margin mt-25">
+                        <div class="col-md-12 heading-skills no-padding">
+                           <h3>INTERESTS</h3>
+                        </div>
+                        <div class="col-md-4 intetst-box">
+                           <div class="intetst-icons">
+                              <i class="fa fa-code" aria-hidden="true"></i>
+                              <br><br>
+                              <h5>CODING</h5>
+                           </div>
+                        </div>
+                        <div class="col-md-4 intetst-box">
+                           <div class="intetst-icons">
+                              <i class="fa fa-headphones" aria-hidden="true"></i>
+                              <br><br>
+                              <h5>MUSIC</h5>
+                           </div>
+                        </div>
+                        <div class="col-md-4 intetst-box">
+                           <div class="intetst-icons">
+                              <i class="fa fa-file-video-o" aria-hidden="true"></i>
+                              <br><br>
+                              <h5>VIDEO</h5>
+                           </div>
+                        </div>
+                        <div class="col-md-4 intetst-box">
+                           <div class="intetst-icons">
+                              <i class="fa fa-search" aria-hidden="true"></i>
+                              <br><br>
+                              <h5>RESEARCH</h5>
+                           </div>
+                        </div>
+                        <div class="col-md-4 intetst-box">
+                           <div class="intetst-icons">
+                              <i class="fa fa-book" aria-hidden="true"></i>
+                              <br><br>
+                              <h5>READING</h5>
+                           </div>
+                        </div>
+                        <div class="col-md-4 intetst-box">
+                           <div class="intetst-icons">
+                              <i class="fa fa-microphone" aria-hidden="true"></i>
+                              <br><br>
+                              <h5>SINGING</h5>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="eduction-right">
+                     <div class="row no-margin">
+                        <div class="col-md-12 heading-skills no-padding">
+                           <h3>EDUCATION</h3>
+                           <div class="ex-box">
+                              <h2>2020-Present</h2>
+                              <h4>University of British Columbia</h4>
+                              <p>Bachelor of Science (BSc)</p>
+                           </div>
+                        </div>
+                        <div class="col-md-12 heading-skills no-padding">
+                           <div class="ex-box">
+                              <h2>2018-2021</h2>
+                              <h4>SMA Negeri 28 Jakarta</h4>
+                              <p>Mathematics and Science</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="address-qr-right">
+                     <div class="row no-margin">
+                        <div class="col-md-5 no-padding">
+                           <div class="qr-box">
+                              <img src="images/qr.png">
+                           </div>
+                        </div>
+                        <div class="col-md-12 no-padding">
+                           <div class="address-right-box">
+                              <ul>
+                                 <li>
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    <p>Scan to view LinkedIn profile</p>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  </div>
+        </section><!-- /Resume --> 
+        <section id="portfolio"  data-filter=*>
+             <ul class="cats-filter" id="portfolio-filter">
+               <li><a href="" class="transition" data-filter=*>All</a></li>
+                <li><a href="" class="transition" data-filter=".news">Featured Articles/News</a></li>
+                <li><a href="" class="transition" data-filter=".research">Research & Writing</a></li>
+                <li><a href="" class="transition" data-filter=".webinar">Webinar & Podcast</a></li>
+                <li><a href="" class="transition" data-filter=".gallery"> Photography & editing</a></li>
+                <li><a href="" class="transition" data-filter=".video"> Videography & editing</a></li>
+                <li><a href="" class="transition" data-filter=".container">Illustration</a></li>
+                <li><a href="" class="transition" data-filter=".code">Programming</a></li>
+            </ul>
+            <div class="extra-text">Please select one of the category above to proceed and see my projects</div>
+            <ul id="portfolio-list" >
+                
+               <li class="news">
+                    <a href="https://edukasi.kompas.com/read/2021/05/22/150612371/kisah-athifah-dan-naila-raih-penghargaan-bergengsi-penelitian-isef-2021?page=all" target="_blank"><img src="images/15.png">
+                    </a>
+                     <h2 class="title">KOMPAS</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li>      
+               <li class="news">
+                    <a href="https://edukasi.okezone.com/read/2021/05/24/65/2414626/2-penelitian-siswa-indonesia-raih-3-award-isef-2021" target="_blank"><img src="images/16.png">
+                    </a>
+                     <h2 class="title">OKEZONE</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li>      
+               <li class="news">
+                    <a href="https://edukasi.sindonews.com/read/435112/212/keren-2-peneliti-muda-asal-indonesia-juarai-kompetisi-dunia-di-as-1621749951?showpage=all" target="_blank"><img src="images/17.png">
+                    </a>
+                     <h2 class="title">SINDONEWS</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+                </li>
+                <li class="news">
+                    <a href="https://www.kompas.com/edu/read/2021/08/28/083000271/puspresnas--53-prestasi-internasional-diraih-pelajar-indonesia-di-tengah?page=all" target="_blank"><img src="images/18.png">
+                    </a>
+                     <h2 class="title">KOMPAS</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li> 
+              <li class="news">
+                    <a href="https://www.beritasatu.com/nasional/777395/teliti-gelombang-otak-dua-siswi-dari-sman-28-raih-penghargaan-internasional" target="_blank"><img src="images/19.png">
+                    </a>
+                     <h2 class="title">BERITASATU</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li> 
+              <li class="news">
+                    <a href="https://jakarta.poskota.co.id/2021/05/23/dua-siswa-sman-28-jakarta-raih-award-pada-isef-2021-lomba-penelitian-tingkat-internasional" target="_blank"><img src="images/20.png">
+                    </a>
+                     <h2 class="title">POSKOTA</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li> 
+              <li class="news">
+                    <a href="https://epaper.mediaindonesia.com/detail/cara-atasi-gagal-fokus-di-pembelajaran-daring" target="_blank"><img src="images/21.png">
+                    </a>
+                     <h2 class="title">MEDIA INDONESIA</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li> 
+              <li class="news">
+                    <a href="https://lpmpntt.kemdikbud.go.id/siaran-pers/silaturahmi-merdeka-belajar-4-menjaga-nyala-api-prestasi-di-masa-pandemi/" target="_blank"><img src="images/22.png">
+                    </a>
+                     <h2 class="title">LPMPNTT</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li>     
+               
+               <li class="news">
+                    <a href="https://www.ganto.co/berita/4228/kemendikbud-adakan-webinar-silaturahmi-merdeka-belajar-episode-empat.html" target="_blank"><img src="images/23.png">
+                    </a>
+                     <h2 class="title">GANTO</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li>  
+              <li class="news">
+                    <a href="https://www.apa.org/ed/precollege/topss/isef-winners" target="_blank"><img src="images/24.png">
+                    </a>
+                     <h2 class="title">APA</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li>  
+              <li class="news">
+                    <a href="https://www.kalderanews.com/2021/05/4-siswa-sma-dari-jakarta-dan-bali-harumkan-indonesia-di-kompetisi-tingkat-dunia-isef-2021/" target="_blank"><img src="images/25.png">
+                    </a>
+                     <h2 class="title">KALDERANEWS</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li>  
+              <li class="news">
+                    <a href="https://nasional.kontan.co.id/news/kemendikbudristek-dorong-prestasi-pelajar-di-tengah-pandemi" target="_blank"><img src="images/26.png">
+                    </a>
+                     <h2 class="title">KONTAN</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li>  
+              <li class="news">
+                    <a href="https://businessnews.co.id/pusat-prestasi-nasional-beri-beasiswa-kepada-300-siswa-berpresatsi-ke-jenjang-s1-dan-s2/" target="_blank"><img src="images/27.png">
+                    </a>
+                     <h2 class="title">BUSINESSNEWS</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li> 
+              <li class="news">
+                    <a href="https://monitorday.com/siswa-indonesia-raih-tiga-penghargaan-di-kompetisi-penelitian-bergengsi-isef-2021" target="_blank"><img src="images/28.png">
+                    </a>
+                     <h2 class="title">MONITORDAY</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li> 
+              <li class="news">
+                    <a href="https://www.bsoet.com/bsoet-com-puspresnas-53-prestasi-internasional-diraih-pelajar-indonesia-di-tengah-pandemi-2021/" target="_blank"><img src="images/30.png">
+                    </a>
+                     <h2 class="title">BSOET</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li> 
+              <li class="news">
+                    <a href="https://www.rakyat.id/hiburan/4-peneliti-indonesia-harumkan-nama-bangsa-di-kompetisi-isef-2021/" target="_blank"><img src="images/31.png">
+                    </a>
+                     <h2 class="title">RAKYAT</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li>
+               <li class="news">
+                    <a href="https://indonews.id/artikel/317939/ISEF-2021-Dua-Penelitian-Karya-Siswa-Indonesia-Raih-Tiga-Award-/" target="_blank"><img src="images/32.png">
+                    </a>
+                     <h2 class="title">INDONEWS</h2>
+                        <span class="categorie">Featured Articles/News</span> 
+            	</li> 
+               
+                <li class="research">
+                    <a href="https://projectboard.world/isef/project/beha008t---working-memory-capacity-and-binaural-beats-xjwen?rc=f8f63d7c-8bc1-4fe6-b33a-44b094a215b9" target="_blank"><img src="images/4.png">
+                    </a>
+                     <h2 class="title">Optimizing Working Memory Capacity Using Binaural Beats</h2>
+                        <span class="categorie">Research & Writing</span> 
+            	</li>      
+                <li class="research">
+                    <a href="https://www.youtube.com/watch?v=Q-HFsQtg5cc" target="_blank">
+                        <img src="images/6.png">
+                        <h2 class="title">Optimalisasi Working Memory Capacity Dengan Binaural Beats </h2>
+                        <span class="categorie">Research & Writing</span> 
+                    </a>
+            	</li> 
+               <li class="research">
+                    <a href="https://drive.google.com/file/d/14loyPlcQjd8KeussfdkyTd5qdIeCIjh9/view?usp=sharing" target="_blank">
+                        <img src="images/13.jpg" alt="">
+                        <h2 class="title">Effectiveness and Applicability of Comedy Robot: A Systematic Review</h2>
+                        <span class="categorie">Literature Review</span> 
+                    </a>
+            	</li>                 
+                <li class="webinar">
+                    <a href="https://www.youtube.com/watch?v=BozEqcGRdvQ" target="_blank">
+                        <img src="images/3(1).png">                            
+                        <h2 class="title">Merdeka Belajar #4: Menjaga Nyala Api Prestasi di Masa Pandemi</h2>
+                        <span class="categorie">Webinar</span> 
+                    </a>
+            	</li>
+                <li class="webinar">
+                    <a href="https://youtu.be/JEIoO9W7PZg?t=2886" target="_blank">
+                        <img src="images/8.png">
+                        <h2 class="title">APMI Goes To School Jawa "Research: The Impact of Formalized Curiosity"</h2>
+                        <span class="categorie">Webinar</span> 
+                    </a>
+            	</li>
+                <li class="webinar">
+                    <a href="https://www.youtube.com/watch?v=Mo4-fUKFLI4" target="_blank">
+                        <img src="images/5.png">
+                        <h2 class="title"> Berkarya di Masa Pandemi</h2>
+                        <span class="categorie">Podcast</span> 
+                    </a>
+                 </li>
+                <li class="webinar">
+                    <a href="https://www.youtube.com/watch?v=1OiNOLdadUQ" target="_blank">
+                        <img src="images/7.png">
+                        <h2 class="title">Prestasi Ilmu Sosial dan Humaniora Selama Covid-19: Perspektif 5M</h2>
+                        <span class="categorie">Focus Group Discussion</span> 
+                    </a>
+            	</li>
+                <li class="webinar">
+                    <a href="https://www.youtube.com/watch?v=wQDnjkwLnU0" target="_blank">
+                        <img src="images/9.jpg" >
+                        <h2 class="title">Teamwork dalam Penelitian</h2>
+                        <span class="categorie">Podcast</span> 
+                    </a>
+            	</li>
+            	<li class="webinar">
+                    <a href="https://www.instagram.com/p/CSLa7RXB1D5/?utm_source=ig_web_copy_link" target="_blank">
+                        <img src="images/10.jpg" >
+                        <h2 class="title">Bincang Riset #1 : Penelitian Sains di Tengah Masa Pandemi</h2>
+                        <span class="categorie">Webinar</span> 
+                    </a>
+            	</li>
+            	<li class="webinar">
+                    <a href="https://www.instagram.com/p/CSwGilwhuFR/?utm_source=ig_web_copy_link" target="_blank" >
+                        <img src="images/11.jpg">
+                        <h2 class="title">Bincang Riet #2: Meneliti di Tengah Pandemi Bidang Sosial dan Humaniora</h2>
+                        <span class="categorie">Webinar</span> 
+                    </a>
+            	</li>
+
+            	<li class="webinar">
+                    <a href="https://www.instagram.com/p/CTgqWbLBXDG/?utm_source=ig_web_copy_link" target="_blank">
+                        <img src="images/12.jpg" >
+                        <h2 class="title">Bincang Riset #3: Bincang Riset Fisika Terapan dan Rekayasa</h2>
+                    </a>
+                    </li>
+                    
+                <div class="gallery" >
+                    <img src="images/photo2.JPG">
+                    <img src="images/photo1.JPG">
+                    <img src="images/photo3.png">
+                    <img src="images/photo4.jpg">
+                    </div>
+                <div class="gallery">
+                    <video width="800" height="450" controls>
+                         <source src="images/1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                </div>
+            	<div class="gallery">
+                    <video width="800" height="450" controls>
+                         <source src="images/2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                    </div>
+                <div class="video">
+                    <iframe width="800" height="450" src="https://www.youtube.com/embed/r-BjezJhzgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <video width="800" height="450" controls>
+                         <source src="images/3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                    </div>
+                <div class="video">
+                    <iframe width="800" height="450" src="https://www.youtube.com/embed/sVCLV5wvBP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                   <iframe width="800" height="450" src="https://www.youtube.com/embed/vwtJ9-t7JaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="800" height="450" src="https://www.youtube.com/embed/39euld8pM1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+                <li class="code">
+                    <a href= https://youtu.be/IutfF5VYdvc ><img src="images/sciplan.png">
+                    </a>
+                     <h2 class="title">SciPlan</h2>
+                        <span class="categorie">HTML/CSS/JS</span> 
+            	</li>  
+                 
+                 <li class="code">
+                    <a href= https://nailserverzone.github.io/ ><img src="images/bangbangcon.png">
+                    </a>
+                     <h2 class="title">BangBangCon Ticket</h2>
+                        <span class="categorie">HTML/CSS/JS</span> 
+            	</li>
+                  
+
+                
+            <div class="container">
+            <!-- Full-width images with number text -->
+              <div class="mySlides">
+                <div class="numbertext">1 / 7</div>
+                  <img src="images/edit1.jpeg" style="height:100%; width:98%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">2 / 7</div>
+                  <img src="images/edit2.jpeg" style="height:70%; width:98%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 7</div>
+                  <img src="images/edit3.jpeg" style="height:100%; width:98%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">4 / 7</div>
+                  <img src="images/edit4.jpeg" style="height:60%; width:98%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">5 / 7</div>
+                  <img src="images/edit4.jpeg" style="height:100%; width:98%">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">6 / 7</div>
+                  <img src="images/edit5.jpeg" style="height:50%; width:90%">
+              </div>
+              
+              <div class="mySlides">
+                <div class="numbertext">7 / 7</div>
+                  <img src="images/edit6.jpeg" style="height:50%; width:90%">
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              <!-- Image text -->
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+              
+              
+            </div>
+        </ul>
+            
+        <!-- Container for the image gallery -->
+
+
+            
+        </section><!-- /Portfolio -->
+        <section id="contact">
+        	<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.8332204288267!2d-123.24746554606048!3d49.260606978897776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548672cc2fd41e03%3A0xc79dd4e7732aa2f3!2sThe%20University%20of%20British%20Columbia!5e0!3m2!1sen!2sid!4v1652861283351!5m2!1sen!2sid" width="300" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+            <div class="contact-info">
+                <h3 class="main-heading"><span>Contact info</span></h3>
+            	<ul>
+                    <li>EMAIL: naila04@student.ubc.ca</li>
+                    <li>PHONE: +1 236-869-7717</li>
+                    <li>WEBSITE: www.noornaila.com</li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <h3 class="main-heading"><span>Let's keep in touch</span></h3>
+                <div id="contact-status"></div>
+                <form action="#" id="contactform">
+                    <p>
+					<div class="form-group">
+						<input type="text" id="name" class="form-control" required>
+						<label class="form-control-placeholder" for="name">Your Name</label>
+					</div>
+                    </p>
+                    <p>
+					<div class="form-group">
+						<input type="text" id="email" class="form-control" required>
+						<label class="form-control-placeholder" for="email">Your Email</label>
+					</div>
+                    </p>
+                    <p>
+                    	<label for="message">Your Message</label>
+                        <textarea name="message" cols="88" rows="6" class="textarea" ></textarea>
+                    </p>
+                    <input type="submit" name="submit" value="Send your message" class="button transition">
+                </form>
+                <br><br><br><br>
+            </div>
+        </section><!-- /contact -->
+    </section><!-- /Content -->
+     <footer>
+    	<div class="copyright">Copyright &copy; 2021 Noor Naila Imtinan</div>
+    </footer>
+	<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  
+</div> 
+
+    </section>
+    
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.1.0/jquery.carouFredSel.packed.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script>
+    
+    $(document).ready(function() {
+  $("#illustration").magnificPopup({
+      delegate: 'a',
+      type:'image',
+      gallery: {
+          enabled: true
+      }
+  });
+});
+    
+</script>
+</body>
+</html>
